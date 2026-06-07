@@ -138,6 +138,6 @@ REST_FRAMEWORK = {
 
 CSRF_TRUSTED_ORIGINS = ["localhost:3000"]
 
-STATICFILES_DIRS = [str(BASE_DIR.joinpath("static"))]
+STATICFILES_DIRS = [str(BASE_DIR.joinpath("staticfiles"))]
 STATIC_ROOT = str(BASE_DIR.joinpath("staticfiles"))
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
